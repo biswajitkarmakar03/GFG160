@@ -1,4 +1,3 @@
-
 class Solution:
     def minRemoval(self, intervals):
         
