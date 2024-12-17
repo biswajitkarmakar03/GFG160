@@ -1,4 +1,5 @@
 class Solution:
+    
     def search(self, arr, key):
         lo, hi = 0, len(arr) - 1
         
