@@ -1,14 +1,17 @@
-class Solution:
-	def twoSum(self, arr, target):
-		
-		s = set()
-		
-		for num in arr:
-		    complement = target - num
-		    
-		    if complement in s:
-		        return True
-		        
-		    s.add(num)
-		    
-	    return False
+class Solution:    
+   
+	def findUnion(self, a, b):
+        st = set()
+        
+        for i in range(len(a)):
+            st.add(a[i])
+            
+        for i in range(len(b)):
+            st.add(b[i])
+            
+        res = []
+        
+        for it in st:
+            res.append(it)
+    
+        return len(res)
